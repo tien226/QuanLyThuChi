@@ -43,7 +43,7 @@ public class GioiThieuActivity extends Fragment {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    mTextMessage.setText("Trần Minh Tiến_Ph09690");
+                    mTextMessage.setText("Trần Minh Tiến_Ph096900000000");
                     return true;
                 case R.id.navigation_dashboard:
                     Calendar calendardate = Calendar.getInstance();
