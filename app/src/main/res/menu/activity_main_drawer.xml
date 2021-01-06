@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_khoanthu"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Khoảng thu" />
+        <item
+            android:id="@+id/nav_khoanchi"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Khoảng chi" />
+        <item
+            android:id="@+id/nav_thongke"
+            android:icon="@mipmap/statistic_icon"
+            android:title="Thống kê" />
+    </group>
+
+    <item android:title="Chức năng">
+        <menu>
+            <item
+                android:id="@+id/nav_gioithieu"
+                android:icon="@drawable/ic_insert_emoticon_black_24dp"
+                android:title="Giới thiệu" />
+            <item
+                android:id="@+id/nav_thoat"
+                android:icon="@mipmap/exit_icon"
+                android:title="Thoát" />
+        </menu>
+    </item>
+
+</menu>
